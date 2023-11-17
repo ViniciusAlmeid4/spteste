@@ -98,20 +98,20 @@
         <h5 class="modal-title" id="exampleModalLabel">Cadastrar Nova Atividade</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <form action="cadatividade.php" method="POST">
-            <div class="form-group">
-                <label>Nome</label>
-                <input type="text" class="form-control" name="nome" placeholder="Insira o nome da atividade" required/>
-                <br/>
-              </div>
-            </form>
+      <form action="cadatividade.php" method="POST">
+        <div class="modal-body">
+          <div class="form-group">
+              <label>Nome</label>
+              <input type="text" class="form-control" name="nome" placeholder="Insira o nome da atividade" required/>
+              <br/>
+            </div>
           </div>
           <div class="modal-footer">
-        <button type="submit" class="btn btn-outline-success">Cadastrar</button>
-        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fechar</button>
-      </div>
-    </div>
+            <button type="submit" class="btn btn-outline-success">Cadastrar</button>
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </form>
   </div>
 </div>
   </body>
